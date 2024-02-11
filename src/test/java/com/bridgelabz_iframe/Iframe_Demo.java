@@ -20,7 +20,7 @@ public class Iframe_Demo {
     Thread.sleep(2000);
     driver.close();
     Thread.sleep(3000);
-    /*
+  
     //Using a id of the frame
     driver.switchTo().frame("f1");
         driver.findElement(By.id("t1")).sendKeys("hello");
@@ -47,6 +47,6 @@ public class Iframe_Demo {
         driver.close();
         Thread.sleep(3000);
 
-     */
+
 }}
 
